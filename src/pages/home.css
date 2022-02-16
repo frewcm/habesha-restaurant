@@ -1,0 +1,65 @@
+.home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  margin: 0;
+}
+.header {
+  width: 100%;
+}
+.textComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 200px;
+  margin-left: 40px;
+}
+.textComponent h1 {
+  margin-bottom: 15px;
+  color: black;
+}
+.textComponent p {
+  margin-bottom: 15px;
+  color: black;
+  font-weight: bolder;
+}
+.textComponent button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+}
+.textComponent button:hover {
+  background-color: rgb(41, 39, 39);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+@media (max-width: 850px){
+  .textComponent h1 {
+    font-size: 14.5px;
+  }
+}
+@media (max-width: 750px){
+  .textComponent h1 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 750px){
+  .textComponent p {
+    font-size: 14px;
+  }
+  .textComponent button {
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+
